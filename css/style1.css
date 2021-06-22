@@ -1,0 +1,10 @@
+#navbutton {
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    border-style: solid;
+    border-color: aqua;
+    background-color: burlywood;
+    border-width: thin;
+    text-align: center;
+    padding: 1%;
+}
