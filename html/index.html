@@ -8,25 +8,29 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="../css/style2.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="../js/navigation.js"></script>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg position-fixed px-0">
-        <div class="row">
-            <div class="col-lg-1"><img src="../img/signature.png" height="60px" width="90px"></div>
-            <div class="col-lg-1 offset-10">
-                <ul class="d-flex">
-                    <li><a class="navbar-brand active" href="index.html">HOME</a></li>
-                    <li><a class="navbar-brand" href="page2.html">ACHIEVEMENTS</a></li>
-                    <li><a class="navbar-brand" href="page3.html">EDUCATION</a></li>
-                    <li><a class="navbar-brand" href="page4.html">CONTACT</a></li>
+    <nav class="navbar navbar-light" id="navigationbar">
+        <div class="container-fluid pt-0">
+            <a class="navbar-brand" href="index.html">
+                <img src="../img/signature.png" height="50px" width="121px">
+            </a>
+            <div class="offset-6" id="navbarSupportedContent">
+                <ul class="nav me-auto mb-2 mb-lg-0 nav-justified-end nav-tabs">
+                    <li class="nav-item"><a class="my-navitem-class nav-link active" aria-current="page" href="index.html">HOME</a></li>
+                    <li class="nav-item"><a class="my-navitem-class nav-link" href="page2.html">ACHIEVEMENTS</a></li>
+                    <li class="nav-item"><a class="my-navitem-class nav-link" href="page3.html">EDUCATION</a></li>
+                    <li class="nav-item"><a class="my-navitem-class nav-link" href="page4.html">CONTACT</a></li>
                 </ul>
             </div>
+            <button class="navbar-toggler btn-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
         </div>
     </nav>
 </body>
-
-
-</div>
 
 </html>

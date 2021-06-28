@@ -11,6 +11,9 @@ body {
 #nav {
     position: fixed;
     float: right;
+    color: rgba(255, 255, 255, 0.678);
+    color: lightslategra;
+    color: lightskyblue;
 }
 
 .navmenu {
