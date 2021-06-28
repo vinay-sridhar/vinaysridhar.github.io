@@ -1,10 +1,13 @@
 $(document).ready(function() {
     $("#navigationbar").on({
         mouseenter: function() {
-            $(this).css("background-color", "lightskyblue");
+            $(this).css({
+                "background": "rgb(9,227,225)",
+                "background": "linear-gradient(90deg, rgba(9,227,225,1) 0%, rgba(230,255,255,1) 87%)"
+            });
         },
         mouseleave: function() {
-            $(this).css("background-color", "transparent");
+            $(this).css("background", "transparent");
         }
     })
     $(".my-navitem-class").on({

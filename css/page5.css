@@ -1,0 +1,54 @@
+body {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(255, 255, 255, 0.9304096638655462) 78%), url(../img/whitebrickbackground.jpg);
+    background-blend-mode: screen;
+}
+
+#my_profile_table {
+    background: rgba(0, 0, 0, 0.397);
+    border-radius: 15px;
+}
+
+#contact-row {
+    font-family: Arial, Helvetica, sans-serif;
+    color: yellow;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 60px;
+    width: 70px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-google {
+    background: #dd4b39;
+    color: white;
+    border-style: none;
+}
+
+.fa-instagram {
+    background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+    color: white;
+}
+
+.fa-phone {
+    width: 200px;
+    background: green;
+    color: white;
+}
