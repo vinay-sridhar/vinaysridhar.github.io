@@ -1,12 +1,16 @@
 body {
     background: rgb(2, 0, 36);
-    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(255, 255, 255, 0.9304096638655462) 78%), url(../img/whitebrickbackground.jpg);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(255, 255, 255, 0.9304096638655462) 78%), url(../img/watermelon_background.jpg);
     background-blend-mode: screen;
 }
 
 #my_profile_table {
     background: rgba(0, 0, 0, 0.397);
-    border-radius: 15px;
+    border-radius: 5px;
+}
+
+#the_table {
+    margin-bottom: 3cm;
 }
 
 #contact-row {
@@ -20,6 +24,8 @@ body {
     width: 70px;
     text-align: center;
     text-decoration: none;
+    margin: 5px;
+    border-radius: 3px;
 }
 
 .fa:hover {

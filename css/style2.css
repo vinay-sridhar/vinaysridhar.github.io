@@ -8,14 +8,24 @@ ul {
 }
 
 body {
-    background-color: chocolate;
+    background-image: url(../img/whitebrickbackground.jpg);
 }
 
 #footer {
-    background-color: #ad880db3;
+    background-color: #ad880d;
     font-family: Arial, Helvetica, sans-serif;
     padding-top: 30px;
     padding-bottom: 30px;
     bottom: 0;
     width: 100%;
+}
+
+hr {
+    width: 60%;
+    text-align: center;
+    margin: auto;
+}
+
+#footer p {
+    text-align: center;
 }

@@ -1,0 +1,20 @@
+body {
+    background-image: url(../img/yellow_background.jpg);
+}
+
+#hello_home {
+    top: 15%;
+    left: 20%;
+    z-index: 1;
+}
+
+#hello_home h1 {
+    font-size: 138px;
+    font-weight: 900;
+    color: #101820FF;
+}
+
+#hello_home h4 {
+    font-size: 25px;
+    font-family: cursive;
+}
