@@ -10,6 +10,8 @@
     <link rel="stylesheet" type="text/css" href="../css/style2.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="../js/navigation.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/page2.css">
+    <script src="../js/page2.js"></script>
 </head>
 
 <body>
@@ -33,6 +35,62 @@
             </button>
         </div>
     </nav>
+    <h2 style="text-align:center">Slideshow Gallery</h2>
+
+    <div class="container">
+        <div class="mySlides">
+            <img src="../img/photo_2021-06-29_20-48-04.jpg">
+        </div>
+
+        <div class="mySlides">
+            <img src="../img/photo_2021-06-29_20-47-39.jpg">
+        </div>
+
+        <div class="mySlides">
+            <img src="../img/photo_2021-06-29_20-48-00.jpg">
+        </div>
+
+        <div class="mySlides">
+            <img src="../img/photo_2021-06-29_20-47-56.jpg">
+        </div>
+
+        <div class="mySlides">
+            <img src="../img/photo_2021-06-29_20-48-12.jpg">
+        </div>
+
+        <div class="mySlides">
+            <img src="../img/photo_2021-06-29_20-48-07.jpg">
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+
+        <div class="caption-container">
+            <p id="caption"></p>
+        </div>
+
+        <div class="row">
+            <div class="column">
+                <img class="demo cursor" src="../img/photo_2021-06-29_20-48-04.jpg" style="width:100%" onclick="currentSlide(1)">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="../img/photo_2021-06-29_20-47-39.jpg" style="width:100%" onclick="currentSlide(2)">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="../img/photo_2021-06-29_20-48-00.jpg" style="width:100%" onclick="currentSlide(3)">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="../img/photo_2021-06-29_20-47-56.jpg" style="width:100%" onclick="currentSlide(4)">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="../img/photo_2021-06-29_20-48-12.jpg" style="width:100%" onclick="currentSlide(5)">
+            </div>
+            <div class="column">
+                <img class="demo cursor" src="../img/photo_2021-06-29_20-48-07.jpg" style="width:100%" onclick="currentSlide(6)">
+            </div>
+        </div>
+    </div>
+
 </body>
 <div id="footer">
     <ul>
