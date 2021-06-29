@@ -10,6 +10,8 @@
     <link rel="stylesheet" type="text/css" href="../css/style2.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="../js/navigation.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/page4.css">
+    <script src="../js/page4.js"></script>
 </head>
 
 <body>
@@ -32,7 +34,51 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
         </div>
-    </nav>
+    </nav><br>
+    <div class="container justify-content-center align-items-center">
+        <h3>Say something about me!</h3><br><br>
+        <h5>Enter your name, a skill of mine and my proficiency at it.<br> For example:</h5>
+        <table class="table table-light table-bordered">
+            <thead>
+                <tr>
+                    <th>NAME</th>
+                    <th>SKILL</th>
+                    <th>LEVEL</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Sachin</td>
+                    <td>HTML</td>
+                    <td>Proficient</td>
+                </tr>
+                <tr>
+                    <td>Rahul</td>
+                    <td>Python</td>
+                    <td>Beginner</td>
+                </tr>
+            </tbody>
+        </table><br>
+        <h2>Table</h2>
+        <table id="addTable" class="table table-dark table-bordered table-hover">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>NAME</th>
+                    <th>SKILL</th>
+                    <th>LEVEL</th>
+                </tr>
+            </thead>
+            <tbody class="table-striped">
+                <tr>
+                    <td></td>
+                    <td><button id="newrowbutton" onclick="addRow()">+ Create New Row</button></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 </body>
 <div id="footer">
     <ul>
