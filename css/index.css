@@ -10,8 +10,8 @@ body {
 
 #hello_home h1 {
     font-size: 138px;
-    font-weight: 900;
-    color: #101820FF;
+    font-weight: 920;
+    color: rgb(17, 27, 37);
 }
 
 #hello_home h4 {

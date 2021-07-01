@@ -2,17 +2,6 @@ body {
     background-image: url(../img/paintspill_background.jpg);
 }
 
-#newrowbutton {
-    border: none;
-    background: none;
-    color: white;
-}
-
-#newrowbutton:focus {
-    border: none;
-    outline: none;
-}
-
 .input-group {
     width: 15cm;
     color: white;
