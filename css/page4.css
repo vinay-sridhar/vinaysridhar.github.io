@@ -12,3 +12,19 @@ body {
     border: none;
     outline: none;
 }
+
+.input-group {
+    width: 15cm;
+    color: white;
+}
+
+.form-control,
+.form-select {
+    background-color: rgba(13, 78, 177, 0.918);
+    color: white;
+}
+
+.border {
+    width: 15.7cm;
+    float: left;
+}

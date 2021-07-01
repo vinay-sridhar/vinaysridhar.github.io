@@ -1,27 +1,25 @@
 function addRow() {
-    var table = document.getElementById("addTable");
-    var tr = document.createElement('tr');
-
-    var td1 = document.createElement('td');
-    var td2 = document.createElement('td');
-    var td3 = document.createElement('td');
-    var td4 = document.createElement('td');
-
+    var table = document.getElementById('dynamic-table');
     var rowCount = table.rows.length;
-    var number = document.createTextNode(rowCount);
-    var input1 = document.createTextNode('Text1');
-    var input2 = document.createTextNode('Text2');
-    var input3 = document.createTextNode('Text3');
+    var row = table.insertRow(rowCount);
 
-    td1.appendChild(number);
-    td2.appendChild(input1);
-    td3.appendChild(input2);
-    td4.appendChild(input3);
-    tr.appendChild(td1);
-    tr.appendChild(td2);
-    tr.appendChild(td3);
-    tr.appendChild(td4);
+    var cell1 = row.insertCell(0);
+    var cell2 = row.insertCell(1);
+    var cell3 = row.insertCell(2);
+    var cell4 = row.insertCell(3);
 
-    table.appendChild(tr);
+    rowCount = rowCount - 1;
+    if (rowCount == 0) {
+        cell1.innerHTML = "1";
+    } else {
+        cell1.innerHTML = rowCount + 1;
+    }
+    var name = document.getElementById("myForm").elements[0].value;
+    var language = document.getElementById("myForm").elements[1].value;
+    var level = document.getElementById("myForm").elements[2].value;
+
+    cell2.innerHTML = name;
+    cell3.innerHTML = language;
+    cell4.innerHTML = level;
 
 }
